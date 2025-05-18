@@ -6,6 +6,9 @@ const person={
         sport:"Football",
         gamess:'UFC',
         games:'UFC1',
+    },
+    sayHello:function(){
+        console.log(`My name is ${this.name}`);
     }
 }
 
@@ -25,3 +28,9 @@ for (let k in person){
 // for of --faqat  massive uchun 
 
 console.log(Object.keys(person));
+
+
+person.sayHello();
+
+const {name,age,job,hobies:{sport}}=person;
+console.log(person);
