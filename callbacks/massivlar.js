@@ -33,3 +33,11 @@ cars.forEach(
         console.log(`The item is ${item}, index of ${index} from ${arr}`);
     }
 )
+const socialMedia='youtube, Telegram, Instagram';
+const mySocial=socialMedia.split(', ');
+console.log(mySocial);
+
+const myNewSocial=socialMedia.split(', ').join(' -')
+console.log(myNewSocial);
+cars.sort();
+console.log(cars);
